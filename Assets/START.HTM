@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vibio HTML Test</title>
+</head>
+<body>
+  <h1>Vibio HTML Test Page</h1>
+  <p>If you can read this, basic HTML text rendering works.</p>
+
+  <h2>Image</h2>
+  <p>The next image is a JPG rendered through Vibio's generated bitmap fallback.</p>
+  <img src="PHOTO.JPG" alt="JPG test image">
+  <p>The image below should render from TEST.PNG.</p>
+  <img src="TEST.PNG" alt="Test image">
+
+  <hr>
+
+  <h2>Headings</h2>
+  <p>This page tests h1, h2, p, br, hr, links, simple wrapping, and images.</p>
+
+  <h2>Paragraph Wrapping</h2>
+  <p>This is a long paragraph that should wrap onto multiple lines inside the viewer window. The renderer should not cut it off, overlap it, or draw text outside the content area. This is useful for testing layout width, line height, scrolling, and clipping.</p>
+
+  <h2>Line Breaks</h2>
+  <p>Line one<br>Line two after a br tag<br>Line three after another br tag</p>
+
+  <hr>
+
+  <h2>Links</h2>
+  <p>Local link test: <a href="START.HTM">reload this page</a></p>
+  <p>Missing page test: <a href="ABOUT.HTM">open ABOUT.HTM</a></p>
+  <p>External link text test: <a href="https://example.com">example.com</a></p>
+
+  <hr>
+
+  <h2>Special Text</h2>
+  <p>Numbers: 0123456789</p>
+  <p>Punctuation: . , : ; ! ? ( ) [ ] - _ + = /</p>
+  <p>Mixed case: Vibio OS can render Uppercase and lowercase text.</p>
+
+  <hr>
+
+  <h2>End Of Page</h2>
+  <p>If you reached this line by scrolling, scrolling works.</p>
+</body>
+</html>
